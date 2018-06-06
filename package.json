@@ -1,0 +1,19 @@
+{
+  "name": "gandalf-cdn",
+  "version": "0.0.1",
+  "description": "Assets generators",
+  "main": "index.js",
+  "repository": "https://github.com/moi-solutions/gandalf-cdn.git",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "sidebar-fonts": "./node_modules/icon-font-generator/bin/icon-font-generator fonts/sidebar/icons/*.svg -o fonts/sidebar -n Sidebar"
+  },
+  "devDependencies": {
+    "icon-font-generator": "^2.1.7"
+  },
+  "engines": {
+    "node": "8.2.1"
+  }
+}

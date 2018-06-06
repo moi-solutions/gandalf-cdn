@@ -18,3 +18,9 @@ Content delivery network for Gandalf
 Add files to repository.
 
     $ git push heroku master
+
+### Generate fonts
+
+Sidebar fonts.
+
+    $ yarn sidebar-fonts
