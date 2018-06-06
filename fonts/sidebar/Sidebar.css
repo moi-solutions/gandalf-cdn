@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Sidebar";
-    src: url("./Sidebar.eot?fb2751f8f25418d6633377e534f81420?#iefix") format("embedded-opentype"),
-url("./Sidebar.woff2?fb2751f8f25418d6633377e534f81420") format("woff2"),
-url("./Sidebar.woff?fb2751f8f25418d6633377e534f81420") format("woff"),
-url("./Sidebar.ttf?fb2751f8f25418d6633377e534f81420") format("truetype"),
-url("./Sidebar.svg?fb2751f8f25418d6633377e534f81420#Sidebar") format("svg");
+    src: url("./Sidebar.eot?97035e5003fc406ea37fce9e2a7333be?#iefix") format("embedded-opentype"),
+url("./Sidebar.woff2?97035e5003fc406ea37fce9e2a7333be") format("woff2"),
+url("./Sidebar.woff?97035e5003fc406ea37fce9e2a7333be") format("woff"),
+url("./Sidebar.ttf?97035e5003fc406ea37fce9e2a7333be") format("truetype"),
+url("./Sidebar.svg?97035e5003fc406ea37fce9e2a7333be#Sidebar") format("svg");
 }
 
 i {
     line-height: 1;
 }
 
-i[class^="icon-"]:before, i[class*=" icon-"]:before {
+i[class^="sidebar-icon-"]:before, i[class*=" sidebar-icon-"]:before {
     font-family: Sidebar !important;
     font-style: normal;
     font-weight: normal !important;
@@ -22,6 +22,6 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-leaf:before {
+.sidebar-icon-leaf:before {
     content: "\f101";
 }

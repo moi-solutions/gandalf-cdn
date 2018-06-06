@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "sidebar-fonts": "./node_modules/icon-font-generator/bin/icon-font-generator fonts/sidebar/icons/*.svg -o fonts/sidebar -n Sidebar"
+    "sidebar-fonts": "./node_modules/icon-font-generator/bin/icon-font-generator fonts/sidebar/icons/*.svg -o fonts/sidebar -n Sidebar -p sidebar-icon"
   },
   "devDependencies": {
     "icon-font-generator": "^2.1.7"
