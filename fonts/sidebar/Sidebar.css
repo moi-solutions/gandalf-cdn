@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Sidebar";
+    src: url("./Sidebar.eot?97035e5003fc406ea37fce9e2a7333be?#iefix") format("embedded-opentype"),
+url("./Sidebar.woff2?97035e5003fc406ea37fce9e2a7333be") format("woff2"),
+url("./Sidebar.woff?97035e5003fc406ea37fce9e2a7333be") format("woff"),
+url("./Sidebar.ttf?97035e5003fc406ea37fce9e2a7333be") format("truetype"),
+url("./Sidebar.svg?97035e5003fc406ea37fce9e2a7333be#Sidebar") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="sidebar-icon-"]:before, i[class*=" sidebar-icon-"]:before {
+    font-family: Sidebar !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sidebar-icon-leaf:before {
+    content: "\f101";
+}
