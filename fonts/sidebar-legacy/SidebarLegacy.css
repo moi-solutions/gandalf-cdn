@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SidebarLegacy";
+    src: url("./SidebarLegacy.eot?8e046d456cc0996d9513e14bd70aa128?#iefix") format("embedded-opentype"),
+url("./SidebarLegacy.woff2?8e046d456cc0996d9513e14bd70aa128") format("woff2"),
+url("./SidebarLegacy.woff?8e046d456cc0996d9513e14bd70aa128") format("woff"),
+url("./SidebarLegacy.ttf?8e046d456cc0996d9513e14bd70aa128") format("truetype"),
+url("./SidebarLegacy.svg?8e046d456cc0996d9513e14bd70aa128#SidebarLegacy") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="sidebar-legacy-icon-"]:before, i[class*=" sidebar-legacy-icon-"]:before {
+    font-family: SidebarLegacy !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sidebar-legacy-icon-bar-chart-o:before {
+    content: "\f101";
+}
+.sidebar-legacy-icon-cog:before {
+    content: "\f102";
+}
+.sidebar-legacy-icon-flask:before {
+    content: "\f103";
+}
+.sidebar-legacy-icon-laptop:before {
+    content: "\f104";
+}
+.sidebar-legacy-icon-leaf:before {
+    content: "\f105";
+}
+.sidebar-legacy-icon-line-chart:before {
+    content: "\f106";
+}
+.sidebar-legacy-icon-pagelines:before {
+    content: "\f107";
+}
+.sidebar-legacy-icon-truck:before {
+    content: "\f108";
+}
+.sidebar-legacy-icon-usd:before {
+    content: "\f109";
+}

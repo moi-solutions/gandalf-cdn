@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "sidebar-fonts": "./node_modules/icon-font-generator/bin/icon-font-generator fonts/sidebar/icons/*.svg -o fonts/sidebar -n Sidebar -p sidebar-icon"
+    "sidebar-fonts": "./node_modules/icon-font-generator/bin/icon-font-generator fonts/sidebar/icons/*.svg -o fonts/sidebar -n Sidebar -p sidebar-icon",
+    "sidebar-legacy-fonts": "./node_modules/icon-font-generator/bin/icon-font-generator fonts/sidebar-legacy/icons/*.svg -o fonts/sidebar-legacy -n SidebarLegacy -p sidebar-legacy-icon"
   },
   "devDependencies": {
     "icon-font-generator": "^2.1.7"
