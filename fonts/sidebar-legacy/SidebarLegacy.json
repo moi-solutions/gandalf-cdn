@@ -1,11 +1,12 @@
 {
     "legacy-icon-bar-chart-o": "\\f101",
-    "legacy-icon-cog": "\\f102",
-    "legacy-icon-flask": "\\f103",
-    "legacy-icon-laptop": "\\f104",
-    "legacy-icon-leaf": "\\f105",
-    "legacy-icon-line-chart": "\\f106",
-    "legacy-icon-pagelines": "\\f107",
-    "legacy-icon-truck": "\\f108",
-    "legacy-icon-usd": "\\f109"
+    "legacy-icon-bars": "\\f102",
+    "legacy-icon-cog": "\\f103",
+    "legacy-icon-flask": "\\f104",
+    "legacy-icon-laptop": "\\f105",
+    "legacy-icon-leaf": "\\f106",
+    "legacy-icon-line-chart": "\\f107",
+    "legacy-icon-pagelines": "\\f108",
+    "legacy-icon-truck": "\\f109",
+    "legacy-icon-usd": "\\f10a"
 }
